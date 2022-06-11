@@ -31,6 +31,14 @@
 
 
 ## Instert
+
+    INSERT INTO TABLOADI  
+    (KOLON1,KOLON2,KOLON3)  
+    VALUES  
+    (VALUE1,VALUE2,VALUE3)    
+![Screenshot from 2022-06-10 22-36-56](https://user-images.githubusercontent.com/57320216/173185603-53e5b2bd-ce31-4b4b-b03f-cdff64a672c4.png)  
+
+
 ## Update
 ## Delete
 ## Truncate 
