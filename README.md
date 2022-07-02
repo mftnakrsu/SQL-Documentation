@@ -13,6 +13,7 @@
   * [OR](#or)
   * [DISTINCT](#distinct)
   * [ORDERBY](#orderby)
+  * [GROUPBY](#groupby)
   * [TOP](#top)
 - [Database Restore Etme Ornegi](#database-restore-etme-ornegi)
 
@@ -47,6 +48,7 @@
 ## OR 
 ## DISTINCT
 ## ORDERBY
+## GROUPBY
 ## TOP
 # Database Restore Etme Ornegi
 
