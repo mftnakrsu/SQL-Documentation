@@ -44,10 +44,10 @@
 - Önce     
 ="insert into cars(marka,model,donanim,motor,yakit,vites,fiyat) VALUES('"&A2&"','"&B2&"','"&C2&"','"&D2&"','"&E2&"','"&F2&"','"&G2&"')   
 formülü kullanılarak sutündaki veriler çekilir.  
+![Screenshot from 2022-07-09 21-22-43](https://user-images.githubusercontent.com/57320216/178122175-1f1eaadd-be18-458e-9391-28196baf927d.png)
+![Screenshot from 2022-07-09 21-27-36](https://user-images.githubusercontent.com/57320216/178122179-ea58b18b-9b34-44f4-ab2e-865d56a60731.png)
 
-![Screenshot from 2022-07-09 21-22-43](https://user-images.githubusercontent.com/57320216/178121962-a0f0ceb1-1930-42d5-9625-a2914ac1bf86.png)
 - Çekilen veri son satıra kadar çekilir ve diğer satırların da otomatik doldurulması sağlanır.  
-![Screenshot from 2022-07-09 21-27-36](https://user-images.githubusercontent.com/57320216/178121964-4918f70f-0b28-4c75-ad65-868707386019.png)
 ![Screenshot from 2022-07-09 21-29-02](https://user-images.githubusercontent.com/57320216/178121968-b2657876-7f1a-4064-8344-4bbd88ec4a1e.png)
 
 - En son tüm komutlar kopyalanarak veritabanına eklenir.
@@ -65,9 +65,26 @@ Yeni veritabanımızı oluşmuş oldu. Şimdi veritabanında nasıl veri set edi
     UPDATE cars
     set motor ='
 
+![Screenshot from 2022-07-09 22-47-45](https://user-images.githubusercontent.com/57320216/178122268-107efaee-0668-4293-bd2a-af20ec0b5166.png)
+![Screenshot from 2022-07-09 22-48-35](https://user-images.githubusercontent.com/57320216/178122270-8ae88343-f587-4cca-9de4-2d43de24ee32.png)
+![Screenshot from 2022-07-09 22-48-47](https://user-images.githubusercontent.com/57320216/178122272-700429db-41ea-45f6-8a47-746399eb505a.png)
+![Screenshot from 2022-07-09 22-50-16](https://user-images.githubusercontent.com/57320216/178122274-6afbc963-3880-49d2-a5cb-42d3aefcbbaa.png)
+
 
 ## Delete
+
+    DELETE
+    FROM TABLENAME
+    WHERE <ŞARTLAR>
+
+ 
 ## Truncate 
+
+    TRUNCATE TABLE TABLENAME
+    
+ İlk haline dönüştürür. Delete hepsini siler. Hız; Truncate >> Delete
+ Delete de otomatk artan bir alan varsa (ID) gibi en son kaldığı yerden devam eder. Truncate 0lar.
+
 ## Where
 ## AND
 ## OR 
